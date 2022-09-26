@@ -24,7 +24,7 @@ Variables
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
   --mainBorderRadius: 0.25rem;
-  --smallWidth: 85vw;
+  --smallWidth: 90vw;
   --maxWidth: 40rem;
   --fullWidth: 1170px;
 }
@@ -53,6 +53,7 @@ body {
   line-height: 1.4;
   font-size: 1rem;
   font-weight: 400;
+  min-width: 500px;
 }
 
 h1,
@@ -188,7 +189,7 @@ Navbar
   align-items: center;
   
   box-shadow: var(--lightShadow);
-  
+  min-width: 500px;
   
 }
 
@@ -199,6 +200,7 @@ Navbar
   width: var(--smallWidth);
   margin: 0 auto;
   max-width: var(--fullWidth);
+  min-width: 500px;
 }
 
 .nav-links {
@@ -239,6 +241,7 @@ Footer
 .footer-bar {
   background: var(--mainWhite);
     height: 5rem;
+    min-width: 500px;
     display: flex;
     align-items: right;
   
@@ -251,7 +254,7 @@ Footer
   padding-right: 5rem;
   display: flex;
  
- 
+  
   max-width: var(--fullWidth);
 }
 
@@ -288,11 +291,13 @@ Error
 .error-page {
   display: flex;
   justify-content: center;
+  min-width: 500px;
 }
 
 .error-container {
   text-align: center;
   height: 60rem;
+  min-width: 500px;
  
 }
 
@@ -300,6 +305,7 @@ Error
 
 .section {
   padding: 5rem 0;
+  min-width: 500px;
 }
 
 .section-title {
@@ -311,6 +317,9 @@ Error
   margin-top: 1rem;
 }
 
+.search-form {
+  min-width: 500px;
+}
 
 
 @media screen and (min-width: 576px) {
@@ -340,6 +349,7 @@ Form
 .search {
   margin-top: 1rem;
   padding-bottom: 0;
+  min-width: 500px;
 }
 
 .search-form {

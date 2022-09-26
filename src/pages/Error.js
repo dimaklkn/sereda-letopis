@@ -5,11 +5,10 @@ export default function Error() {
   const { minYear, maxYear } = useGlobalContext();
 
   return (
-    <section className="error-page section">
-      <div className="error-container">
-        <h1 className="section-title animate__animated animate__fadeInDown">
-          Ошибка
-        </h1>
+    <section className="section about-section">
+      <div className="events-result animate__animated animate__fadeInUp">
+        <h1>Ошибка</h1>
+
         <h3 className="animate__animated animate__fadeInUp">{`Выберите годы между ${minYear} и ${maxYear} гг.`}</h3>
         <Link
           to="/"
