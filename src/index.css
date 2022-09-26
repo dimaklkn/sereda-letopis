@@ -339,6 +339,9 @@ Error
   border-radius: var(--mainBorderRadius);
 }
 
+.events-result h4 {
+  text-align:center;
+}
 
 
 /* 
@@ -397,9 +400,7 @@ Form
     align-items: center;
   }
 
-  .drink-info {
-    padding-top: 0;
-  }
+
 }
 
 .line-1 {
@@ -423,4 +424,9 @@ Form
   width: 10rem;
   border: 1px solid var(--primaryDarkColor);;
   border-radius: 50%;
+}
+
+.quotes {
+  color: var(--mainRed);
+  font-size: 5rem;
 }
