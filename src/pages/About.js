@@ -10,6 +10,7 @@ export default function About() {
           <h1 className="section-title animate__animated animate__fadeInDown">
             О проекте
           </h1>
+
           <h4>Летопись истории г. Фурманова и района</h4>
           <p className="animate__animated animate__fadeInUp">
             &#8220;История любого, даже самого маленького города с его
